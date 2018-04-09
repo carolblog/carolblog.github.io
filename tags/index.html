@@ -200,18 +200,44 @@
             <!-- 标签云 -->
             <div id='tag_cloud' class="tags">
                 
+                    <a href="#tag1" title="tag1" rel="1">tag1</a>
+                
                     <a href="#hexo" title="hexo" rel="0">hexo</a>
                 
                     <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
                 
                     <a href="#Blog" title="Blog" rel="1">Blog</a>
                 
-                    <a href="#tag1" title="tag1" rel="1">tag1</a>
-                
             </div>
 
             <!-- 标签列表 -->
 
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="tag1">
+                    <span class="tag-text">tag1</span>
+                </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2017/03/26/IMAPOST/">
+                        <h2 class="post-title">
+                            我是文章标题
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                我是小标题
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+            </div>
             
             <div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="hexo">
@@ -263,32 +289,6 @@
                         
                             <h3 class="post-subtitle">
                                 This is hexo theme Demo.
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="tag1">
-                    <span class="tag-text">tag1</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2017/03/26/IMAPOST/">
-                        <h2 class="post-title">
-                            我是文章标题
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                我是小标题
                             </h3>
                         
                     </a>
