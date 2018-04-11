@@ -7,6 +7,13 @@
     </url>
     
     <url>
+        <loc>https://carolblog.github.io/about/</loc>
+        <lastmod>2018-04-11T22:47:57.523Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://carolblog.github.io/tags/</loc>
         <lastmod>2018-04-08T23:50:28.668Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -16,13 +23,6 @@
     <url>
         <loc>https://carolblog.github.io/archive/</loc>
         <lastmod>2018-04-08T23:50:28.581Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://carolblog.github.io/about/</loc>
-        <lastmod>2018-04-08T23:50:28.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
