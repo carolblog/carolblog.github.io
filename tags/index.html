@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="carolblog.github.io/tags/">
+    <link rel="canonical" href="https://carolblog.github.io/tags/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -202,11 +202,11 @@
                 
                     <a href="#tag1" title="tag1" rel="1">tag1</a>
                 
+                    <a href="#hexo" title="hexo" rel="0">hexo</a>
+                
                     <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
                 
                     <a href="#Blog" title="Blog" rel="1">Blog</a>
-                
-                    <a href="#hexo" title="hexo" rel="0">hexo</a>
                 
             </div>
 
@@ -236,6 +236,13 @@
                     <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                 </div>
                 <hr>
+                
+            </div>
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="hexo">
+                    <span class="tag-text">hexo</span>
+                </span>
                 
             </div>
             
@@ -288,13 +295,6 @@
                     <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                 </div>
                 <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="hexo">
-                    <span class="tag-text">hexo</span>
-                </span>
                 
             </div>
             
@@ -416,7 +416,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("carolblog.github.io/js/jquery.tagcloud.js",function(){
+        async("https://carolblog.github.io/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -467,7 +467,7 @@
 	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
     <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
 <!-- Image to hack wechat -->
-<img src="carolblog.github.io/img/icon_wechat.png" width="0" height="0" />
+<img src="https://carolblog.github.io/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>
